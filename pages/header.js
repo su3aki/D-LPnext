@@ -24,16 +24,16 @@ const Header = () => {
         main: '#000'
       },
       secondary: {
-        main: '#000'
+        main: '#FFFF'
       }},
   })
   theme.typography.h3 = {
-  fontSize: '1.2rem',
+  fontSize: '0.5rem',
   '@media (min-width:600px)': {
-    fontSize: '1.5rem',
+    fontSize: '0.9rem',
   },
   [theme.breakpoints.up('md')]: {
-    fontSize: '1.5rem',
+    fontSize: '0.9rem',
   },
   }
 
@@ -44,22 +44,18 @@ const Header = () => {
       <AppBar >
           <Toolbar >
           <div className={classes.logo}>
-          <Link href="/">
+          <Link href="https://diaxs.net">
               <img src="/Diaxs-170.png" alt="Diaxs-170"/>
               </Link>
-          </div>
+            </div>
+            <Typography variant="h3">Vtuber Audition Page</Typography>
           <div className={classes.grow} />
           <div className={classes.icons}>
-          {/* <Link href="/">
-            <Typography variant="h3" color="secondary" >
-              Home
-            </Typography>
+            <Link href="https://diaxs.net">
+                <Typography variant="h3" color="secondary">
+                  DiAXS公式HPはこちら
+                </Typography>
             </Link>
-            <Link href="/about">
-              <Typography variant="h3" color="secondary">
-                about
-              </Typography>
-          </Link> */}
           </div>
           </Toolbar>
       </AppBar>

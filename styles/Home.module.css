@@ -32,6 +32,10 @@
   flex-direction: column;
   justify-content: center;
 }
+.thanks {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .titleArea {
   width: 90%;
   margin: 0 auto;
@@ -43,6 +47,10 @@
   margin-top: 120px;
   width: 60%;
   height: 70px;
+}
+.mainVisual {
+  text-align: center;
+  margin: 0 auto;
 }
 .esports span {
   color: #2cb67d;
@@ -174,7 +182,7 @@
   padding-bottom: 150px;
 }
 .recruitFlow {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 150px;
   padding-bottom: 150px;
